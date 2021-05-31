@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400&display=swap');
+
+.heading {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #F8F8F8;
+  text-shadow: 4px 5px 10px black;
+}
+
+#navbarText {
+  padding-left: 75px;
+}
+
+.navbar-nav li {
+  padding-left: 10px;
+  padding-right: 120px;
+  font-size: 1.3rem;
+}
+
+.navbar-brand {
+  margin-left: 30px;
+}
+
+.welcome,
+.about {
+  width: 95%;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.welcome hr,
+.about hr {
+  border-top: 1px solid #b4b4b4;
+  width: 95%;
+  margin-top: .3rem;
+  margin-bottom: 1rem;
+}
+
+.nav-link:hover {
+  color: #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.padding {
+  padding-bottom: 2rem;
+}
+
+#about {
+  width: 75%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  text-align: center;
+}
+
+#career {
+  text-align: center;
+}
+
+.fa-mobile-alt {
+  color: #FF0000;
+}
+
+.fa-envelope {
+  color: #00BFFF;
+}
+
+.fa-linkedin-in {
+  color: #2867B2;
+}
+
+.fa-github {
+  color: #000000;
+}
+
+.fa-mobile-alt, .fa-envelope, .fa-linkedin-in, .fa-github {
+  font-size: 4rem;
+  margin: 1rem;
+}
+
+.rounded-circle {
+  width: 50%;
+}
+
+.banner {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.heading {
+  position: absolute;
+  top: 30%;
+  width: 70%;
+  text-align: center
+}
+
+body {
+  background-color:	#F8F8F8;
+}
+
+.cv {
+  color: white;
+  text-decoration: none;
+}
+
+.cv:hover {
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #606060;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+.btn {
+  margin-top: 3rem;
+}
+
+#contact {
+  padding-top: 3rem;
+}
